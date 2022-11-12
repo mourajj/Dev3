@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Noto+Sans|Open+Sans:400,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  justify-content: center;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(#111, rgb(31, 34, 75)) ;
+}
+header{
+  font-size: 55px;
+  margin-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(88, 88, 88);
+  text-shadow: 1px 1px #000000;
+}
+header:hover{
+   color:#ffffff;
+   transition: .4s;
+  }
